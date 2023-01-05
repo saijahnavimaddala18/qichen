@@ -1,0 +1,50 @@
+@import "./constants.scss";
+
+.container {
+    background-image: linear-gradient(to right, rgb(210, 57, 2), rgb(210, 57, 2)), url(https://demo.webtend.net/html/qichen/assets/images/bg/category-bg-1.jpg);
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 1.2rem;
+
+    .foodCourt {
+        width: 80%;
+        height: 50vh;
+        padding: 2rem;
+        margin-top: 3rem;
+        // border: 2px solid blue;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: white;
+        font-weight: normal;
+    }
+}
+.para{
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+.our{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    img{
+        width: 5rem;
+    }
+}

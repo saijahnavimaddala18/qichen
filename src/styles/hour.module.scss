@@ -1,0 +1,76 @@
+@import "./constants.scss";
+
+.container {
+    display: flex;
+    background-color: rgb(249, 238, 235);
+    margin-bottom: 3rem;
+    justify-content: space-between;
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    .section {
+        width: 40%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        align-items: center;
+        // gap: 1rem;
+
+
+        .hour {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            img {
+                width: 4rem;
+
+            }
+
+            p {
+                color: orangered;
+                font-size: 1.3rem;
+            }
+        }
+
+        h1 {
+            margin-top: 1rem;
+            width: 70%;
+            font-size: 2rem;
+            font-family: "Forum";
+            font-weight: normal;
+        }
+
+    }
+
+
+
+}
+
+.timings {
+    .mon {
+        width: 32rem;
+        height: 12vh;
+        margin-top: 2rem;
+        background-image: url(https://demo.webtend.net/html/qichen/assets/images/shape/hour-bg-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+
+        span {
+            width: 7rem;
+            border-bottom: 2px dashed;
+        }
+
+
+    }
+}

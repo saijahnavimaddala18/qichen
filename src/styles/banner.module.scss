@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    // border: 1px solid black;
+}
+
+.container {
+    background-color: rgba(223, 63, 0, 0.07);
+    display: flex;
+    background-blend-mode: hard-light;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+        display: flex;
+        gap: 2rem;
+
+        h1 {
+            font-size: 5.5rem;
+            font-weight: normal;
+
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            width: 20rem;
+            display: flex;
+            flex-direction: row;
+            align-self: flex-start;
+
+            img {
+                width: 3rem;
+                height: auto;
+            }
+
+            button {
+                width: 13rem;
+                height: 3rem;
+                padding: 0.8rem;
+                border: none;
+                background-color: orangered;
+                border-radius: 0.5rem;
+                color: white;
+
+            }
+        }
+
+    }
+
+    div {   
+        img {
+            
+            width: 35rem;
+        }
+    }
+}

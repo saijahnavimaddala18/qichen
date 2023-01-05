@@ -1,0 +1,30 @@
+@import "./constants.scss";
+
+.container {
+    div {
+        display: flex;
+        // border: 1px solid red;
+        padding: 1rem;
+        gap: 1rem;
+        align-items: center;
+
+        button {
+            width: 3rem;
+            height: 2.5rem;
+            border: none;
+            border-radius: 0.2rem;
+
+        }
+
+        p {
+            color: black;
+            font-size: 2rem;
+        }
+    }
+
+    background-color: white;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+}

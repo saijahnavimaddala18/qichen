@@ -1,0 +1,64 @@
+.master {
+    margin: 4rem 0;
+    background-color: rgba(223, 63, 0, 0.07);
+
+    .chef {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        align-items: center;
+        gap: 2rem;
+
+        .kind {
+            width: 30%;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+            }
+
+            h5 {
+                width: 80%;
+                margin: 1rem 0;
+                font-size: 3rem;
+                font-weight: 400;
+                font-family: "Forum";
+            }
+
+            h6 {
+                font-size: 1.1rem;
+                font-weight: 400;
+                font-family: "Forum", cursive;
+            }
+
+            p {
+                margin: 1rem 0;
+                font-family: "Forum";
+            }
+
+            button {
+                border-radius: 0.4rem;
+                background-color: transparent;
+                padding: 1rem;
+                border: 1px solid rgba(26, 26, 26, 0.102);
+            }
+
+        }
+
+    }
+
+    .ser {
+        width: 60%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+
+        img {
+            width: 12rem;
+        }
+    }
+}

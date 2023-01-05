@@ -1,0 +1,13 @@
+.instamain {
+
+    .insta {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .imgs {
+        width: 100%;
+    }
+}

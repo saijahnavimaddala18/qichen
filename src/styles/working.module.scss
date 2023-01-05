@@ -1,0 +1,86 @@
+@import "./constants.scss";
+
+.book {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+
+    // div {
+
+    //     border: 1px solid black;
+    // }
+
+    .text {
+        img {
+            width: 3rem;
+        }
+    }
+
+    .res {
+        background-image: url(https://demo.webtend.net/html/qichen/assets/images/shape/line-1.png);
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 100vh;
+
+        div {
+
+            display: flex;
+            gap: 1rem;
+            color: orangered;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin: 1rem 0;
+            font-family: "Forum";
+            font-weight: normal;
+            font-size: 2.5rem;
+        }
+
+        h6 {
+            font-weight: normal;
+            margin: 2rem 0;
+            font-size: 1.3rem;
+        }
+
+    }
+}
+
+.elits {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        width: 70%;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #FBF8F5;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 1.3rem;
+        margin-bottom: 3rem;
+
+    }
+
+    select {
+        width: 78%;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #FBF8F5;
+        padding: 1.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        width: 30%;
+        padding: 1rem;
+        background-color: orangered;
+        margin: 3rem 0;
+        border: none;
+        color: white;
+    }
+
+
+}
